@@ -6,26 +6,26 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="description" content="We introduce BEAM, a benchmark for evaluating long-term memory in large language models (LLMs) up to 10M tokens, and LIGHT, a method-augmented framework for enhancing long-term memory performance.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <meta name="keywords" content="long-context LLMs, long-term memory, benchmarking, BEAM, LIGHT, retrieval, LLMs, long-term memory benchmark, long-term memory method, long-context benchmark, long-context LLMs, long-context evaluation, beyond a million tokens">
   <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="author" content="Mohammad Tavakoli, Alireza Salemi, Carrie Ye, Mohamed Abdalla, Hamed Zamani, J Ross Mitchell">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <meta property="og:site_name" content="ICLR 2026">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
+  <meta property="og:title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta property="og:description" content="BEAM: a long-context benchmark for evaluating long-term memory in LLMs up to 10M tokens, and LIGHT: a method for enhancing long-term memory in LLMs.">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://mohammadtavakoli78.github.io/beam-light/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
@@ -52,12 +52,16 @@
   <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  <meta name="citation_title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
+  <meta name="citation_author" content="Tavakoli, Mohammad">
+  <meta name="citation_author" content="Salemi, Alireza">
+  <meta name="citation_author" content="Ye, Carrie">
+  <meta name="citation_author" content="Abdalla, Mohamed">
+  <meta name="citation_author" content="Zamani, Hamed">
+  <meta name="citation_author" content="Mitchell, J Ross">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="International Conference on Learning Representations (ICLR)">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2510.27246.pdf">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -74,11 +78,13 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs | BEAM & LIGHT | ICLR 2026</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico"> -->
+  <link rel="icon" href="static/images/brain.jpeg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="static/images/brain.jpeg">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -187,7 +193,7 @@
   </button>
 
   <!-- More Works Dropdown -->
-  <div class="more-works-container">
+  <!-- <div class="more-works-container">
     <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
       <i class="fas fa-flask"></i>
       More Works
@@ -201,19 +207,14 @@
         </button>
       </div>
       <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
         <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
+            <h5>Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs</h5>
             <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <span class="work-venue">ICLR 2026</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
         <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Paper Title 2</h5>
@@ -232,104 +233,152 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+  
+              <!-- Paper title -->
+              <h1 class="title is-1 publication-title">
+                Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs
+              </h1>
+  
+              <!-- Authors -->
+              <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                  <a href="https://scholar.google.com/citations?user=gCgTCMQAAAAJ&hl=en&authuser=1" target="_blank">
+                    Mohammad Tavakoli
+                  </a>,
+                </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=dCOLDf4AAAAJ" target="_blank">
+                    Alireza Salemi
+                  </a>,
+                </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=_CJUQ50AAAAJ" target="_blank">
+                    Carrie Ye
+                  </a>,
+                </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=U8D2dlMAAAAJ" target="_blank">
+                    Mohamed Abdalla
+                  </a>,
+                </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=d2uzDIAAAAAJ" target="_blank">
+                    Hamed Zamani
+                  </a>,
+                </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=cqOJ26UAAAAJ" target="_blank">
+                    J Ross Mitchell
+                  </a>
+                </span>
+              </div>
+              
+              <div class="content has-text-centered" style="margin-top: 1rem;">
+                <p class="is-size-5">
+                  <b>TL;DR:</b> We introduce <b>BEAM</b>, a benchmark of coherent conversations up to <b>10M tokens</b> with <b>10 memory abilities</b>,
+                  and <b>LIGHT</b>, a cognitive-inspired memory framework that improves long-term memory performance by <b>3.50%–12.69%</b> on average over strong baselines.
+                </p>
+              
+                <div class="columns is-centered is-multiline" style="margin-top: 1rem;">
+                  <div class="column is-3">
+                    <div class="box">
+                      <p class="heading">Conversations</p>
+                      <p class="title is-4">100</p>
+                    </div>
                   </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  <div class="column is-3">
+                    <div class="box">
+                      <p class="heading">Probing Questions</p>
+                      <p class="title is-4">2,000</p>
+                    </div>
                   </div>
+                  <div class="column is-3">
+                    <div class="box">
+                      <p class="heading">Max Length</p>
+                      <p class="title is-4">10M</p>
+                    </div>
+                  </div>
+                  <div class="column is-3">
+                    <div class="box">
+                      <p class="heading">Memory Abilities</p>
+                      <p class="title is-4">10</p>
+                    </div>
+                  </div>
+                  <div class="column is-3">
+                    <div class="box">
+                      <p class="heading">Domains</p>
+                      <p class="title is-4">19</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
+              <!-- Links -->
+              <div class="publication-links">
+  
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2510.27246.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+  
+                <span class="link-block">
+                  <a href="https://github.com/mohammadtavakoli78/BEAM" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
+  
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://huggingface.co/datasets/Mohammadta/BEAM" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Data · BEAM</span>
+                  </a>
+                </span>
+  
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/Mohammadta/BEAM-10M" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Data · BEAM-10M</span>
+                  </a>
+                </span>
+  
+              </div>
+  
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+  </main>
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
       <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
+        <source src="static/videos/first.mp4" type="video/mp4">
       </video>
-      <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Overview of <b>BEAM</b>, a new benchmark for evaluating long-term memory in LLMs with coherent conversations up to 10M tokens, and <b>LIGHT</b>, a cognitive-inspired framework that improves long-context reasoning via episodic memory, working memory, and a scratchpad.
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -341,7 +390,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Evaluating the abilities of large language models (LLMs) for tasks that require long-term memory and thus long-context reasoning, for example in conversational settings, is hampered by the existing benchmarks, which often lack narrative coherence, cover narrow domains, and only test simple recall-oriented tasks. This paper introduces a comprehensive solution to these challenges. First, we present a novel framework for automatically generating long (up to 10M tokens), coherent, and topically diverse conversations, accompanied by probing questions targeting a wide range of memory abilities. From this, we construct <strong>BEAM</strong>, a new benchmark comprising 100 conversations and 2,000 validated questions. Second, to enhance model performance, we propose <strong>LIGHT</strong>–a framework inspired by human cognition that equips LLMs with three complementary memory systems: a long-term episodic memory, a short-term working memory, and a scratchpad for accumulating salient facts. Our experiments on BEAM reveal that even LLMs with 1M token context windows (with and without retrieval-augmentation) struggle as dialogues lengthen. In contrast, LIGHT consistently improves performance across various models, achieving an average improvement of <strong>3.50%–12.69%</strong> over the strongest baselines, depending on the backbone LLM. An ablation study further confirms the contribution of each memory component.
           </p>
         </div>
       </div>
@@ -351,43 +400,538 @@
 <!-- End paper abstract -->
 
 
+<!-- BEAM Overview -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3 has-text-centered">BEAM Benchmark</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>BEAM</b> is a benchmark for evaluating long-term memory in conversational LLMs.
+            It contains <b>100</b> coherent, multi-domain conversations (lengths: <b>128K</b>, <b>500K</b>, <b>1M</b>, and <b>10M</b> tokens)
+            and <b>2,000</b> human-validated probing questions spanning <b>10</b> complementary memory abilities.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3 class="title is-5">Memory abilities</h3>
+          <div class="tags">
+            <span class="tag is-dark">Information Extraction</span>
+            <span class="tag is-dark">Multi-hop Reasoning</span>
+            <span class="tag is-dark">Knowledge Update</span>
+            <span class="tag is-dark">Temporal Reasoning</span>
+            <span class="tag is-dark">Summarization</span>
+            <span class="tag is-dark">Preference Following</span>
+            <span class="tag is-dark">Abstention</span>
+            <span class="tag is-dark">Contradiction Resolution</span>
+            <span class="tag is-dark">Event Ordering</span>
+            <span class="tag is-dark">Instruction Following</span>
+          </div>
+          <p class="is-size-7" style="margin-top: 0.5rem;">
+            New abilities introduced in BEAM include <b>Contradiction Resolution</b>, <b>Event Ordering</b>, and <b>Instruction Following</b>.
+          </p>
+        </div>
+
+        <!-- Comparison Table -->
+        <h3 class="title is-4" style="margin-top: 1.5rem;">Comparison with Existing Long-Term Memory Benchmarks</h3>
+
+        <div class="tags" style="margin-bottom: 0.75rem;">
+          <span class="tag is-light"><b>IE</b>: Info Extraction</span>
+          <span class="tag is-light"><b>MR</b>: Multi-hop</span>
+          <span class="tag is-light"><b>KU</b>: Knowledge Update</span>
+          <span class="tag is-light"><b>TR</b>: Temporal</span>
+          <span class="tag is-light"><b>ABS</b>: Abstention</span>
+          <span class="tag is-light"><b>CR</b>: Contradiction</span>
+          <span class="tag is-light"><b>EO</b>: Event Ordering</span>
+          <span class="tag is-light"><b>IF</b>: Instruction Follow.</span>
+          <span class="tag is-light"><b>PF</b>: Preference Follow.</span>
+          <span class="tag is-light"><b>SUM</b>: Summarization</span>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table is-bordered is-striped is-hoverable is-narrow is-fullwidth">
+            <thead>
+              <tr>
+                <th>Benchmark</th>
+                <th>Domain</th>
+                <th>Chat Length</th>
+                <th class="ability-col">IE</th>
+                <th class="ability-col">MR</th>
+                <th class="ability-col">KU</th>
+                <th class="ability-col">TR</th>
+                <th class="ability-col">ABS</th>
+                <th class="ability-col">CR</th>
+                <th class="ability-col">EO</th>
+                <th class="ability-col">IF</th>
+                <th class="ability-col">PF</th>
+                <th class="ability-col">SUM</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td><b>MSC</b></td>
+                <td><span class="tag is-light">Casual</span></td>
+                <td><span class="tag is-light">~1K</span></td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>DuLeMon</b></td>
+                <td><span class="tag is-light">Casual</span></td>
+                <td><span class="tag is-light">~1K</span></td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>MemoryBank</b></td>
+                <td><span class="tag is-light">Personal</span></td>
+                <td><span class="tag is-light">~5K</span></td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>PerLTQA</b></td>
+                <td><span class="tag is-light">Personal</span></td>
+                <td><span class="tag is-light">N/A</span></td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>LoCoMo</b></td>
+                <td><span class="tag is-light">Personal</span></td>
+                <td><span class="tag is-light">~10K</span></td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+              </tr>
+
+              <tr>
+                <td><b>DialSim</b></td>
+                <td><span class="tag is-light">TV/Film</span></td>
+                <td><span class="tag is-light">~350K</span></td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>LongMemEval</b></td>
+                <td><span class="tag is-light">Personal</span></td>
+                <td>
+                  <span class="tag is-light">115K</span>
+                  <span class="tag is-light">1M</span>
+                </td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr>
+                <td><b>MemBench</b></td>
+                <td><span class="tag is-light">Personal</span></td>
+                <td><span class="tag is-light">~100K</span></td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-no">❌</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-no">❌</td>
+              </tr>
+
+              <tr class="row-highlight">
+                <td><b>BEAM (This work)</b></td>
+                <td>
+                  <span class="tag is-info is-light">Multi-domain</span>
+                  <span class="tag is-info is-light">Coding</span>
+                  <span class="tag is-info is-light">Math</span>
+                  <span class="tag is-info is-light">Health</span>
+                  <span class="tag is-info is-light">Finance</span>
+                  <span class="tag is-info is-light">Personal</span>
+                  <span class="tag is-info is-light">14 other domains</span>
+                </td>
+                <td>
+                  <span class="tag is-info is-light">128K</span>
+                  <span class="tag is-info is-light">500K</span>
+                  <span class="tag is-info is-light">1M</span>
+                  <span class="tag is-info is-light">10M</span>
+                </td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+                <td class="ability-col cell-yes">✅</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End BEAM Overview -->
+
+
+<!-- LIGHT Method -->
+<section class="section is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3 has-text-centered">LIGHT Method</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>LIGHT</b> is a cognitive-inspired framework that improves long-term memory in LLMs by combining three complementary memory systems:
+            <b>episodic memory</b> (retrieval over the conversation), <b>working memory</b> (recent turns), and a <b>scratchpad</b> that accumulates salient facts over time.
+            At inference, the model answers using retrieved episodic evidence, the working-memory buffer, and a filtered scratchpad.
+          </p>
+
+          <ul>
+            <li><b>Episodic memory:</b> retrieves relevant dialogue segments from a vector database.</li>
+            <li><b>Working memory:</b> includes the most recent turns for local coherence.</li>
+            <li><b>Scratchpad:</b> maintains compressed, curated notes that persist across long conversations.</li>
+          </ul>
+
+          <p>
+            Across models and conversation lengths, LIGHT improves performance by <b>3.50%–12.69%</b> on average over the strongest baselines.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End LIGHT Method -->
+
+<!-- Average Results Summary -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Average Results</h2>
+    <!-- <h2 class="title is-3">Average Results</h2> -->
+    <p class="note-muted">
+      Average performance across the 10 memory abilities on BEAM. Each card shows Vanilla, RAG, and <span class="method-pill light">LIGHT</span> for each backbone model.
+    </p>
+
+    <div class="columns is-multiline results-grid">
+
+      <!-- 100K -->
+      <div class="column is-12-mobile is-6-tablet is-6-desktop">
+        <div class="card result-card">
+          <header class="card-header">
+            <p class="card-header-title">
+              100K Tokens
+              <span class="badge badge-blue" style="margin-left: 0.75rem;">Average</span>
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Vanilla</th>
+                  <th>RAG</th>
+                  <th>LIGHT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Qwen 2.5</td>
+                  <td>0.280</td>
+                  <td>0.269</td>
+                  <td><span class="best">0.311</span></td>
+                </tr>
+                <tr>
+                  <td>Llama 4 Maverick</td>
+                  <td>0.240</td>
+                  <td>0.323</td>
+                  <td><span class="best">0.358</span></td>
+                </tr>
+                <tr>
+                  <td>Gemini 2 Flash</td>
+                  <td>0.242</td>
+                  <td>0.280</td>
+                  <td><span class="best">0.294</span></td>
+                </tr>
+                <tr>
+                  <td>GPT-4.1-nano</td>
+                  <td>0.239</td>
+                  <td>0.309</td>
+                  <td><span class="best">0.345</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 500K -->
+      <div class="column is-12-mobile is-6-tablet is-6-desktop">
+        <div class="card result-card">
+          <header class="card-header">
+            <p class="card-header-title">
+              500K Tokens
+              <span class="badge badge-blue" style="margin-left: 0.75rem;">Average</span>
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Vanilla</th>
+                  <th>RAG</th>
+                  <th>LIGHT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Qwen 2.5</td>
+                  <td>0.200</td>
+                  <td>0.291</td>
+                  <td><span class="best">0.316</span></td>
+                </tr>
+                <tr>
+                  <td>Llama 4 Maverick</td>
+                  <td>0.283</td>
+                  <td>0.330</td>
+                  <td><span class="best">0.359</span></td>
+                </tr>
+                <tr>
+                  <td>Gemini 2 Flash</td>
+                  <td>0.257</td>
+                  <td>0.267</td>
+                  <td><span class="best">0.292</span></td>
+                </tr>
+                <tr>
+                  <td>GPT-4.1-nano</td>
+                  <td>0.194</td>
+                  <td>0.314</td>
+                  <td><span class="best">0.335</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1M -->
+      <div class="column is-12-mobile is-6-tablet is-6-desktop">
+        <div class="card result-card">
+          <header class="card-header">
+            <p class="card-header-title">
+              1M Tokens
+              <span class="badge badge-blue" style="margin-left: 0.75rem;">Average</span>
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Vanilla</th>
+                  <th>RAG</th>
+                  <th>LIGHT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Qwen 2.5</td>
+                  <td>0.193</td>
+                  <td>0.285</td>
+                  <td><span class="best">0.309</span></td>
+                </tr>
+                <tr>
+                  <td>Llama 4 Maverick</td>
+                  <td>0.259</td>
+                  <td>0.307</td>
+                  <td><span class="best">0.336</span></td>
+                </tr>
+                <tr>
+                  <td>Gemini 2 Flash</td>
+                  <td>0.199</td>
+                  <td>0.271</td>
+                  <td><span class="best">0.284</span></td>
+                </tr>
+                <tr>
+                  <td>GPT-4.1-nano</td>
+                  <td>0.191</td>
+                  <td>0.302</td>
+                  <td><span class="best">0.336</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10M -->
+      <div class="column is-12-mobile is-6-tablet is-6-desktop">
+        <div class="card result-card">
+          <header class="card-header">
+            <p class="card-header-title">
+              10M Tokens
+              <span class="badge badge-blue" style="margin-left: 0.75rem;">Average</span>
+            </p>
+          </header>
+          <div class="card-content">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Vanilla</th>
+                  <th>RAG</th>
+                  <th>LIGHT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Qwen 2.5</td>
+                  <td>0.133</td>
+                  <td>0.211</td>
+                  <td><span class="best">0.238</span></td>
+                </tr>
+                <tr>
+                  <td>Llama 4 Maverick</td>
+                  <td>0.104</td>
+                  <td>0.249</td>
+                  <td><span class="best">0.266</span></td>
+                </tr>
+                <tr>
+                  <td>Gemini 2 Flash</td>
+                  <td>0.122</td>
+                  <td><span class="best">0.216</span></td>
+                  <td>0.192</td>
+                </tr>
+                <tr>
+                  <td>GPT-4.1-nano</td>
+                  <td>0.109</td>
+                  <td>0.218</td>
+                  <td><span class="best">0.226</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- <p class="note-muted" style="margin-top: 0.75rem;">
+              Note: at 10M, no baseline processes the full context window; models are evaluated on the largest recent segment fitting their input limits.
+            </p> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Average Results Summary -->
+
+
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+
+        <div class="item">
+          <img src="static/images/1.png" class="fixed-media" alt="BEAM data generation pipeline" loading="lazy">
+          <h2 class="subtitle has-text-centered">
+            BEAM generation pipeline: conversation plan → user utterances → assistant utterances → probing questions → validation.
+          </h2>
+        </div>
+
+        <div class="item">
+          <img src="static/images/2.png" class="fixed-media" alt="LIGHT method construction" loading="lazy">
+          <h2 class="subtitle has-text-centered">
+            LIGHT construction: LIGHT combines episodic memory, scratchpad memory, and working memory.
+          </h2>
+        </div>
+
+        <div class="item">
+          <img src="static/images/4.png" class="fixed-media" alt="LIGHT method inference" loading="lazy">
+          <h2 class="subtitle has-text-centered">
+            LIGHT inference: At inference, relevant items from the index and scratchpad, together with the full working memory, are integrated to generate the final response.
+          </h2>
+        </div>
+
+        <div class="item">
+          <img src="static/images/3.png" class="fixed-media" alt="Ablation study for LIGHT components" loading="lazy">
+          <h2 class="subtitle has-text-centered">
+            Ablation: each component contributes more as context length grows.
+          </h2>
+        </div>
+
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
 <!-- End image carousel -->
 
@@ -405,7 +949,7 @@
           
           <div class="publication-video">
             <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="static/videos/first.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -415,80 +959,54 @@
 <!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
 
 
 
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <!-- TODO: Replace with your poster PDF -->
       <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
     </div>
+
+<pre id="bibtex-code"><code>@article{tavakoli2025beyond,
+  title   = {Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs},
+  author  = {Tavakoli, Mohammad and
+             Salemi, Alireza and
+             Ye, Carrie and
+             Abdalla, Mohamed and
+             Zamani, Hamed and
+             Mitchell, J. Ross},
+  journal = {arXiv preprint arXiv:2510.27246},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2510.27246}
+}</code></pre>
+
+  </div>
 </section>
+
 <!--End BibTex citation -->
 
 

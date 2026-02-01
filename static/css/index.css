@@ -751,3 +751,164 @@ a:focus {
 
 
 
+/* BEAM comparison table */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+}
+
+.table-wrap table {
+  min-width: 1050px; /* forces horizontal scroll on small screens */
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #ffffff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+.ability-col {
+  text-align: center !important;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.cell-yes {
+  font-weight: 700;
+}
+
+.cell-no {
+  opacity: 0.55;
+}
+
+.row-highlight {
+  background: rgba(37, 99, 235, 0.08) !important;
+}
+
+.small-note {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.7);
+}
+
+
+
+
+
+/* Force fixed height inside bulma-carousel */
+#results-carousel .item img.fixed-media {
+  width: 100% !important;
+  height: 380px !important;
+  /* object-fit: cover !important;   */
+  border-radius: 12px;
+  display: block;
+}
+
+/* Optional: if bulma-carousel wraps your items, this still forces it */
+#results-carousel img.fixed-media {
+  height: 380px !important;
+  /* object-fit: cover !important; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Results summary UI */
+.results-grid {
+  margin-top: 1rem;
+}
+
+.result-card {
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.result-card .card-header {
+  background: rgba(37, 99, 235, 0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.result-card .card-header-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: rgba(0,0,0,0.06);
+}
+
+.badge-blue {
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+}
+
+.mini-table th,
+.mini-table td {
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  vertical-align: middle;
+}
+
+.mini-table th {
+  font-weight: 700;
+  color: rgba(0,0,0,0.75);
+  background: rgba(0,0,0,0.02);
+}
+
+.mini-table td {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.mini-table td:first-child,
+.mini-table th:first-child {
+  text-align: left;
+}
+
+.best {
+  font-weight: 800;
+  background: rgba(34, 197, 94, 0.12); /* subtle green */
+  border-radius: 10px;
+  padding: 0.2rem 0.45rem;
+  display: inline-block;
+}
+
+.method-pill {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.06);
+}
+
+.method-pill.light {
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.note-muted {
+  color: rgba(0,0,0,0.65);
+  font-size: 0.95rem;
+}

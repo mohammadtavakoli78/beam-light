@@ -818,6 +818,59 @@ a:focus {
 
 
 
+/* BibTeX block: clean, readable, wraps nicely */
+.bibtex-box {
+  background: #0b1220;        /* dark, "code-like" */
+  color: #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  white-space: pre;           /* preserve whitespace exactly */
+  font-size: 0.95rem;
+  line-height: 1.45;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Ensure code inherits colors and doesn't add weird spacing */
+.bibtex-box code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  white-space: pre;           /* keep formatting */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Make the header + copy button align nicely */
+.bibtex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Optional: nicer copy button */
+.copy-bibtex-btn {
+  border: 1px solid rgba(0,0,0,0.12);
+  background: white;
+  border-radius: 10px;
+  padding: 0.55rem 0.8rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.05s ease, box-shadow 0.15s ease;
+}
+.copy-bibtex-btn:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+}
+.copy-bibtex-btn:active {
+  transform: translateY(1px);
+}
+
+
+
+
 
 
 

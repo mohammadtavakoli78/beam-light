@@ -249,38 +249,61 @@
   
               <!-- Authors -->
               <div class="is-size-5 publication-authors">
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?user=gCgTCMQAAAAJ&hl=en&authuser=1" target="_blank">
-                    Mohammad Tavakoli
+                    Mohammad Tavakoli<sup>1</sup>
                   </a>,
                 </span>
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=dCOLDf4AAAAJ" target="_blank">
-                    Alireza Salemi
+                    Alireza Salemi<sup>2</sup>
                   </a>,
                 </span>
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=_CJUQ50AAAAJ" target="_blank">
-                    Carrie Ye
+                    Carrie Ye<sup>1</sup>
                   </a>,
                 </span>
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=U8D2dlMAAAAJ" target="_blank">
-                    Mohamed Abdalla
+                    Mohamed Abdalla<sup>1,3</sup>
                   </a>,
                 </span>
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=d2uzDIAAAAAJ" target="_blank">
-                    Hamed Zamani
+                    Hamed Zamani<sup>2</sup>
                   </a>,
                 </span>
+
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=cqOJ26UAAAAJ" target="_blank">
-                    J Ross Mitchell
+                    J. Ross Mitchell<sup>1,3</sup>
                   </a>
                 </span>
+
               </div>
               
+              <!-- Affiliations -->
+              <div class="is-size-5 publication-authors has-text-centered">
+                <span class="author-block">
+                  <sup>1</sup> University of Alberta
+                </span>
+                &nbsp;&nbsp;
+                <span class="author-block">
+                  <sup>2</sup> University of Massachusetts Amherst
+                </span>
+                &nbsp;&nbsp;
+                <span class="author-block">
+                  <sup>3</sup> Alberta Machine Intelligence Institute (Amii)
+                </span>
+              </div>
+
+
               <div class="content has-text-centered" style="margin-top: 1rem;">
                 <p class="is-size-5">
                   <b>TL;DR:</b> We introduce <b>BEAM</b>, a benchmark of coherent conversations up to <b>10M tokens</b> with <b>10 memory abilities</b>,
@@ -410,7 +433,7 @@
 
         <div class="content has-text-justified">
           <p>
-            <b>BEAM</b> is a benchmark for evaluating long-term memory in conversational LLMs.
+            <b>BEAM</b> is a benchmark for evaluating long-term memory in LLMs.
             It contains <b>100</b> coherent, multi-domain conversations (lengths: <b>128K</b>, <b>500K</b>, <b>1M</b>, and <b>10M</b> tokens)
             and <b>2,000</b> human-validated probing questions spanning <b>10</b> complementary memory abilities.
           </p>
@@ -691,7 +714,7 @@
         <div class="card result-card">
           <header class="card-header">
             <p class="card-header-title">
-              100K Tokens
+              128K Tokens
               <span class="badge badge-blue" style="margin-left: 0.75rem;">Average</span>
             </p>
           </header>
@@ -904,7 +927,7 @@
         <div class="item">
           <img src="static/images/1.png" class="fixed-media" alt="BEAM data generation pipeline" loading="lazy">
           <h2 class="subtitle has-text-centered">
-            BEAM generation pipeline: conversation plan → user utterances → assistant utterances → probing questions → validation.
+            BEAM generation pipeline: conversation plan → user utterances → assistant utterances → probing questions → evaluation.
           </h2>
         </div>
 
@@ -939,23 +962,21 @@
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
             <iframe src="static/videos/first.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
@@ -980,7 +1001,7 @@
 
 
 
-<!--BibTex citation -->
+<!-- BibTeX citation -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <div class="bibtex-header">
@@ -991,23 +1012,16 @@
       </button>
     </div>
 
-<pre id="bibtex-code"><code>@article{tavakoli2025beyond,
-  title   = {Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs},
-  author  = {Tavakoli, Mohammad and
-             Salemi, Alireza and
-             Ye, Carrie and
-             Abdalla, Mohamed and
-             Zamani, Hamed and
-             Mitchell, J. Ross},
-  journal = {arXiv preprint arXiv:2510.27246},
-  year    = {2025},
-  url     = {https://arxiv.org/abs/2510.27246}
+<pre><code>@article{tavakoli2025beyond,
+  title={Beyond a million tokens: Benchmarking and enhancing long-term memory in llms},
+  author={Tavakoli, Mohammad and Salemi, Alireza and Ye, Carrie and Abdalla, Mohamed and Zamani, Hamed and Mitchell, J Ross},
+  journal={arXiv preprint arXiv:2510.27246},
+  year={2025}
 }</code></pre>
 
   </div>
 </section>
-
-<!--End BibTex citation -->
+<!-- End BibTeX citation -->
 
 
   <footer class="footer">

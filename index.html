@@ -8,9 +8,9 @@
   <!-- TODO: Replace with your paper title and author names -->
   <meta name="title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="We introduce BEAM, a benchmark for evaluating long-term memory in large language models (LLMs) up to 10M tokens, and LIGHT, a method-augmented framework for enhancing long-term memory performance.">
+  <meta name="description" content="BEAM is a long-context benchmark for evaluating long-term memory in LLMs up to 10M tokens. LIGHT is a cognitive-inspired framework that improves long-term memory performance.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="long-context LLMs, long-term memory, benchmarking, BEAM, LIGHT, retrieval, LLMs, long-term memory benchmark, long-term memory method, long-context benchmark, long-context LLMs, long-context evaluation, beyond a million tokens">
+  <meta name="keywords" content="long-context LLMs, long-term memory, benchmarking, BEAM, LIGHT, retrieval, LLMs, long-term memory benchmark, long-term memory method, long-context benchmark, long-context evaluation, beyond a million tokens, ICLR 2026">
   <!-- TODO: List all authors -->
   <meta name="author" content="Mohammad Tavakoli, Alireza Salemi, Carrie Ye, Mohamed Abdalla, Hamed Zamani, J Ross Mitchell">
   <meta name="robots" content="index, follow">
@@ -27,15 +27,15 @@
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://mohammadtavakoli78.github.io/beam-light/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image" content="https://mohammadtavakoli78.github.io/beam-light/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
+  <meta property="article:published_time" content="2025-10-31T00:00:00.000Z">
+  <meta property="article:author" content="Mohammad Tavakoli">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Long-term memory">
+  <meta property="article:tag" content="BEAM">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -44,12 +44,12 @@
   <!-- TODO: Replace with first author's Twitter handle -->
   <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
+  <meta name="twitter:title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="twitter:description" content="We introduce BEAM, a benchmark of coherent conversations up to 10M tokens with 10 memory abilities, and LIGHT, a cognitive-inspired memory framework that improves long-term memory performance by 3.50%–12.69% on average over strong baselines.">
   <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:image" content="https://mohammadtavakoli78.github.io/beam-light/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
 
   <!-- Academic/Research Specific -->
   <meta name="citation_title" content="Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs">
@@ -117,56 +117,41 @@
   
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs",
+      "abstract": "We introduce BEAM, a benchmark of coherent long-context conversations up to 10M tokens with diverse memory abilities, and LIGHT, a cognitive-inspired framework that improves long-term memory performance in large language models.",
+      "author": [
+        {"@type": "Person", "name": "Mohammad Tavakoli"},
+        {"@type": "Person", "name": "Alireza Salemi"},
+        {"@type": "Person", "name": "Carrie Ye"},
+        {"@type": "Person", "name": "Mohamed Abdalla"},
+        {"@type": "Person", "name": "Hamed Zamani"},
+        {"@type": "Person", "name": "J. Ross Mitchell"}
+      ],
+      "datePublished": "2026",
+      "publisher": {
+        "@type": "Organization",
+        "name": "International Conference on Learning Representations (ICLR)"
       },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
+      "url": "https://mohammadtavakoli78.github.io/beam-light/",
+      "sameAs": [
+        "https://arxiv.org/abs/2510.27246",
+        "https://github.com/mohammadtavakoli78/BEAM",
+        "https://huggingface.co/datasets/Mohammadta/BEAM",
+        "https://huggingface.co/datasets/Mohammadta/BEAM-10M"
+      ],
+      "keywords": [
+        "long-term memory in LLMs",
+        "long-context benchmark",
+        "long-context evaluation",
+        "memory benchmarks",
+        "BEAM",
+        "LIGHT"
+      ],
+      "isAccessibleForFree": true
+    }
   </script>
   
   <!-- Website/Organization Structured Data -->
@@ -176,7 +161,7 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "logo": "https://mohammadtavakoli78.github.io/beam-light/static/images/favicon.ico",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
